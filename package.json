@@ -8,6 +8,7 @@
     "start": "node .",
     "dev": "tsx watch src/http/server.ts",
     "dev:nowatch": "tsx src/http/server.ts",
+    "test": "vitest src/",
     "lint": "eslint src/ --ext .ts"
   },
   "author": "Kauê Fraga Rodrigues <kauefragarodrigues456@gmail.com>",
@@ -26,6 +27,7 @@
     "eslint-plugin-import": "^2.25.2",
     "tsup": "^6.7.0",
     "tsx": "^3.12.7",
-    "typescript": "^5.0.4"
+    "typescript": "^5.0.4",
+    "vitest": "^0.31.0"
   }
 }
