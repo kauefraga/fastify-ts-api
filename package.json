@@ -7,7 +7,8 @@
     "build": "tsup src/",
     "start": "node .",
     "dev": "tsx watch src/http/server.ts",
-    "dev:nowatch": "tsx src/http/server.ts"
+    "dev:nowatch": "tsx src/http/server.ts",
+    "lint": "eslint src/ --ext .ts"
   },
   "author": "Kauê Fraga Rodrigues <kauefragarodrigues456@gmail.com>",
   "license": "MIT",
@@ -17,6 +18,12 @@
   },
   "devDependencies": {
     "@types/node": "^20.1.3",
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-plugin-import": "^2.25.2",
     "tsup": "^6.7.0",
     "tsx": "^3.12.7",
     "typescript": "^5.0.4"
