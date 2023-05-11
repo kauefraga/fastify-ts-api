@@ -29,5 +29,10 @@
     "tsx": "^3.12.7",
     "typescript": "^5.0.4",
     "vitest": "^0.31.0"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.2.1",
+    "@fastify/rate-limit": "^8.0.0",
+    "fastify": "^4.17.0"
   }
 }
