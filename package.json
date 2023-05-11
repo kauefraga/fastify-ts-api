@@ -1,0 +1,10 @@
+{
+  "name": "fastify-ts-api",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "Kauê Fraga Rodrigues <kauefragarodrigues456@gmail.com>",
+  "license": "MIT"
+}
