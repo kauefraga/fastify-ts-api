@@ -2,7 +2,7 @@
   "name": "fastify-ts-api",
   "private": true,
   "version": "1.0.0",
-  "main": "dist/http/server.js",
+  "main": "dist/server.js",
   "scripts": {
     "build": "tsup src/",
     "start": "node .",
