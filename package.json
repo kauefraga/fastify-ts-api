@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "main": "dist/server.js",
   "scripts": {
-    "build": "tsup src/",
+    "build": "pnpm i --frozen-lockfile && tsup src/ && rm -rf node_modules",
+    "postbuild": "pnpm i --prod",
     "start": "node .",
     "dev": "tsx watch src/http/server.ts",
     "dev:nowatch": "tsx src/http/server.ts",
