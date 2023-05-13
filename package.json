@@ -4,8 +4,7 @@
   "version": "1.0.0",
   "main": "dist/server.js",
   "scripts": {
-    "build": "pnpm i && tsup src/ && rm -rf node_modules",
-    "postbuild": "pnpm i --prod",
+    "build": "pnpm i && pnpm tsup src/",
     "start": "node .",
     "dev": "tsx watch src/http/server.ts",
     "dev:nowatch": "tsx src/http/server.ts",
