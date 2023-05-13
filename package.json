@@ -5,6 +5,7 @@
   "main": "dist/server.js",
   "scripts": {
     "build": "pnpm i && pnpm tsup src/",
+    "postbuild": "rm -rf node_modules && pnpm i --prod",
     "start": "node .",
     "dev": "tsx watch src/http/server.ts",
     "dev:nowatch": "tsx src/http/server.ts",
@@ -29,6 +30,7 @@
   "dependencies": {
     "@fastify/cors": "^8.2.1",
     "@fastify/rate-limit": "^8.0.0",
+    "dotenv": "^16.0.3",
     "fastify": "^4.17.0"
   }
 }
