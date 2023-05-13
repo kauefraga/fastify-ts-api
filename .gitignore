@@ -3,3 +3,6 @@
 
 # Tsup Output
 /dist
+
+# Environment Variables
+.env
