@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import app from './app';
 
 function bootServer(port: number) {
@@ -7,8 +8,8 @@ function bootServer(port: number) {
   });
 }
 
-const PORT = process.env.port
-  ? Number(process.env.port)
+const PORT = process.env.PORT
+  ? Number(process.env.PORT)
   : 3333;
 
 bootServer(PORT);
